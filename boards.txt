@@ -1,0 +1,18 @@
+metaboarde.name=Metaboard w/ ATmega328p
+
+metaboarde.upload.tool=arduino:avrdude
+metaboarde.upload.protocol=usbasp
+metaboarde.upload.speed=19200
+metaboarde.bootloader.low_fuses=0xF7
+metaboarde.bootloader.high_fuses=0xDA
+metaboarde.bootloader.tool=arduino:avrdude
+metaboarde.bootloader.file=mega328p_16mhz.hex
+metaboarde.bootloader.unlock_bits=0x3F
+metaboarde.bootloader.lock_bits=0x0F
+metaboarde.build.variant=arduino:standard
+metaboarde.build.core=arduino:arduino
+metaboarde.build.board=AVR_metaboard
+metaboarde.build.f_cpu=16000000L
+metaboarde.upload.maximum_size=30720
+metaboarde.upload.maximum_data_size=2048
+metaboarde.build.mcu=atmega328p
