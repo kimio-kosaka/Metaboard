@@ -1,0 +1,4 @@
+SUBSYSTEM!="usb_device", ACTION!="add", GOTO="objdev_rules_end"
+# USBasp
+SYSFS{idVendor}=="16c0", SYSFS{idProduct}=="05dc", GROUP="users", MODE="666"
+LABEL="objdev_rules_end"
