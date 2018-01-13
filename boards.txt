@@ -22,7 +22,7 @@ metaboard-328.bootloader.file=mega328p_16mhz.hex
 metaboard-328.bootloader.low_fuses=0xff
 metaboard-328.bootloader.high_fuses=0xDA
 metaboard-328.bootloader.extended_fuses=0xFD
-metaboard-328.bootloader.unlock_bits=0x3F
+metaboard-328.bootloader.unlock_bits=0xFF
 metaboard-328.bootloader.lock_bits=0x0F
 #
 #####################################
